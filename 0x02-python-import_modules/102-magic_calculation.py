@@ -16,14 +16,4 @@ def magic_calculation(a, b):
 
                                                         else:
 
-                                                                    return (sub(a, b))
-
-                                                                Footer
-
-                                                                © 2022 GitHub, Inc.
-
-                                                                Footer navigation
-
-                                                                Terms
-
-                                                                Priva
+                                                                    return sub(a, b)

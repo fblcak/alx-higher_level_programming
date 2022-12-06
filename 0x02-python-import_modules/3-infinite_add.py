@@ -2,12 +2,14 @@
 
 if __name__ == "__main__":
 
-        from sys import argv
+        import sys
 
-            add = 0
+            result = 0
 
-                for s in argv[1:]:
+                for arg in sys.argv:
 
-                            add += int(s)
+                            if arg != sys.argv[0]:
 
-                                print("{:d}".format(add))
+                                            result += int(arg)
+
+                                                print(result)
