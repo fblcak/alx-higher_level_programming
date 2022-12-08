@@ -1,9 +1,17 @@
-t_score(a_dictionary):
+#!/usr/bin/python3
 
-        if not a_dictionary:
+def best_score(my_dict):
 
-                    return (None)
+        if my_dict and len(my_dict):
 
+                    max = list(my_dict.keys())[0]
 
+                            for key in my_dict:
 
-                    return (max(a_dictionary, key=a_dictionary.get))
+                                            if my_dict[key] > my_dict[max]:
+
+                                                                max = key
+
+                                                                        return max
+
+                                                                        return None

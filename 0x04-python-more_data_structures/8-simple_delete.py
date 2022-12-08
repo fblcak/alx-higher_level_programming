@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-def simple_delete(a_dictionary, key=""):
+def simple_delete(my_dict, key=""):
 
-        if a_dictionary.get(key) is not None:
+        if key in my_dict:
 
-                    del a_dictionary[key]
+                    del my_dict[key]
 
-                        return (a_dictionary)
+                        return my_dict

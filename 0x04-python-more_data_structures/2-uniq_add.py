@@ -2,16 +2,10 @@
 
 def uniq_add(my_list=[]):
 
-        uniq_list = set(my_list)
+        add = 0
 
-            num = 0
+            for i in set(my_list):
 
+                        add += i
 
-
-                for i in uniq_list:
-
-                            num += i
-
-
-
-                                return (num)
+                            return add
